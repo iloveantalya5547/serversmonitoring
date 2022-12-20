@@ -1,0 +1,15 @@
+{% extends 'laservers/layout.html' %}
+
+{% block title %}Monitoring{% endblock %}
+
+{% block content %}
+
+    <h1 align = "center">Monitoring</h1>
+    {% for el in laserv %}
+        <div class="alert alert-warning">
+            <h2>{{ el.title }}</h2>
+            <p>{{ el.date }}</p>
+            <a href="{% url 'server-detail' el.id %}" class="btn btn-warning">Full Info</a>
+        </div>
+        {% endfor %}
+{% endblock %}

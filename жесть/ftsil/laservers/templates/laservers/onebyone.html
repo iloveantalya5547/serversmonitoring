@@ -1,0 +1,15 @@
+{% extends 'laservers/layout.html' %}
+
+{% block title %}{{ server.title }}{% endblock %}
+
+{% block content %}
+    <div class = "serversss">
+    <h1 align = "center">{{ server.title }}</h1>
+    <p>{{server.date}}</p>
+    <p>{{server.type}}</p>
+    <p>{{server.email}}</p>
+    <p>{{server.group}}</p>
+    <p>{{server.stype}}</p>
+    <p>{{server.location}}</p>
+    </div>
+{% endblock %}

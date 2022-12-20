@@ -1,0 +1,31 @@
+body {
+    background: #256D7B;
+}
+.alert-warning {
+    align: center;
+    float: center;
+    clear: both;
+    width: 400px;
+    margin: 30px 34%;
+    text-align: left;
+}
+
+.login {
+
+    align: left;
+    float: none;
+    clear: none;
+    width: 400px;
+    margin: 30px 34%;
+    text-align: left;
+}
+
+.serversss {
+    color: white;
+    align: center;
+    float: center;
+    clear: both;
+    width: 200px;
+    margin: 30px 34%;
+    text-align: left;
+}
